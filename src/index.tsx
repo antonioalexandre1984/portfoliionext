@@ -4,15 +4,15 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { GetStaticProps } from "next";
 import Prismic from "@prismicio/client";
-import { Header } from "../components/Header";
-import { Hero } from "../components/Hero";
-import { Brands } from "../components/Brands";
-import { About } from "../components/About";
-import { Skills } from "../components/Skills";
-import { Portfolio } from "../components/Portfolio";
-import { Jobs } from "../components/Jobs";
-import { getPrismicClient } from "../components/Services/prismic";
-import { Contact } from "../components/Contact";
+import { Header } from "./components/Header";
+import { Hero } from "./components/Hero";
+import { Brands } from "./components/Brands";
+import { About } from "./components/About";
+import { Skills } from "./components/Skills";
+import { Portfolio } from "./components/Portfolio";
+import { Jobs } from "./components/Jobs";
+import { getPrismicClient } from "./components/Services/prismic";
+import { Contact } from './components/Contact'
 interface IProject {
   slug: string;
   title: string;

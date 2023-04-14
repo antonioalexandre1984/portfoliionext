@@ -1,18 +1,41 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    './src/pages/**/*.{js,ts,jsx,tsx}',
-    './src/components/**/*.{js,ts,jsx,tsx}',
-    './src/app/**/*.{js,ts,jsx,tsx}',
-  ],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    fontFamily: {
+      primary: "Playfair Display",
+      body: "Work Sans",
+    },
+    container: {
+      padding: {
+        DEFAULT: "1rem",
+        lg: "3rem",
+      },
+    },
+    screens: {
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+    },
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      content: {
+        about: 'url("/src/assets/img/outline-text/about.svg")',
+        portfolio: 'url("/src/assets/img/outline-text/portfolio.svg")',
+        services: 'url("/src/assets/img/outline-text/services.svg")',
+        testimonials: 'url("/src/assets/img/outline-text/testimonials.svg")',
+        contact: 'url("/src/assets/img/outline-text/contact.svg")',
+      },
+      colors: {
+        primary: "#202024",
+        secondary: "#1C1D24",
+        tertiary: "#131419",
+        accent: {
+          DEFAULT: "#F1a70f",
+          hover: "#B77c02",
+        },
+        paragraph: "#878e99",
       },
     },
   },
   plugins: [],
-}
+};
