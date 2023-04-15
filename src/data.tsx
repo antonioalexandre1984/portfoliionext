@@ -218,25 +218,25 @@ export const services = [
     icon: <FiLayout />,
     name: "Web Design",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
+      "The first step is planning, where business requirements and development strategies are defined.",
   },
   {
     icon: <FiSettings />,
     name: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
+      "The second stage is the design stage, where wireframes and interactive designs are created to visualize the final product.",
   },
   {
     icon: <FiPenTool />,
     name: "Branding",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
+      "In this stage, the development of the frontend and backend is carried out, using the most appropriate technologies to meet the specific requirements of the project.",
   },
   {
     icon: <FiTag />,
     name: "SEO",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.",
+      " The next stage is testing, which includes unit, integration, and acceptance tests to ensure that the software is working correctly and free of bugs.Finally, deployment, configuration, and ongoing maintenance services are provided to ensure the software is always up to date and working properly.",
   },
 ];
 

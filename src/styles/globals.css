@@ -23,6 +23,9 @@
   .subtitle {
     @apply text-base text-paragraph mb-16 lg:mb-24 max-w-[520px];
   }
+  .subtitle-description{
+    @apply text-base text-paragraph mb-16 lg:mb-24;
+  }
   .btn {
     @apply py-4 px-7 font-medium text-white flex items-center justify-center rounded-sm hover:bg-accent-hover transition-all;
   }
@@ -33,10 +36,14 @@
     @apply h-[48px];
   }
   .input {
-    @apply bg-[#514738] text-[#fff] h-[60px] outline-none pl-6 w-full font-body text-[15px] rounded-sm focus:outline focus:outline-1 focus:outline-accent;
+    @apply bg-[#717070] text-[#fff] h-[60px] outline-none pl-6 w-full font-body text-[15px] rounded-sm focus:outline focus:outline-1 focus:outline-accent;
   }
+  .input-error{
+    @apply bg-[#514738] text-[#fff] h-[60px] outline-none pl-6 w-full font-body text-[15px] rounded-sm focus:outline focus:outline-1  border-2 border-red-500;
+    }
+  
   .textarea {
-    @apply bg-[#514738] text-[#fff]  resize-none w-full outline-none p-6 rounded-sm h-[200px] focus:outline focus:outline-1 focus:outline-accent;
+    @apply bg-[#717070] text-[#fff]  resize-none w-full outline-none p-6 rounded-sm h-[200px] focus:outline focus:outline-1 focus:outline-accent;
   }
   .active {
     @apply text-accent;

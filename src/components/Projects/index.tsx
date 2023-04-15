@@ -46,9 +46,8 @@ export function Projects({ jobs }: ProjectItemProps) {
             <li
               onClick={(e) => handleClick(e, index)}
               key={index}
-              className={`${
-                active === index ? "active" : ""
-              } cursor-pointer capitalize m-4`}
+              className={`${active === index ? "active" : ""
+                } cursor-pointer capitalize m-4`}
             >
               {item.name}
             </li>

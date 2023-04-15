@@ -1,9 +1,14 @@
 import React from "react";
 import Image from "next/image";
-import image from "../../assets/img/about.webp";
+import perfil from "../../assets/perfil.jpg";
 import { about } from "../../data";
+import { BsWhatsapp } from "react-icons/bs";
 
 export function About() {
+
+  const WhatsAppButton = () => {
+    window.location.href = "https://wa.me/5583987921452";
+  };
   return (
     <section className="section bg-secondary" id="about">
       <div className="container mx-auto">
@@ -14,7 +19,7 @@ export function About() {
             className="flex w-full"
           >
             <Image
-              src={image}
+              src={perfil}
               alt="Logo"
               className="object-cover h-full w-96 lg:w-[566px] rounded-2xl"
             />
@@ -40,8 +45,19 @@ export function About() {
               );
             })}
 
-            <button className="btn btn-md bg-accent hover:bg-secondary-hover rounded-xl transition-all">
-              <a href="#contact">Contact Me</a>
+            <button onClick={WhatsAppButton} className="btn btn-md bg-whats hover:bg-white-hover rounded-xl transition-all">
+              <a>
+                <div className="flex items-center justify-between gap-0 text-[16px]">
+                  Contact Me
+                  <BsWhatsapp
+                    size="20px"
+                    color="#fff"
+                    style={{ marginLeft: "20px" }}
+                    onClick={WhatsAppButton}
+                  />
+
+                </div>
+              </a>
             </button>
           </div>
         </div>

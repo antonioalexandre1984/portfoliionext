@@ -17,6 +17,7 @@ module.exports = {
       lg: "1024px",
       xl: "1280px",
     },
+
     extend: {
       content: {
         about: 'url("/src/assets/img/outline-text/about.svg")',
@@ -29,11 +30,19 @@ module.exports = {
         primary: "#202024",
         secondary: "#1C1D24",
         tertiary: "#131419",
+        form: '#bab8b3',
         accent: {
           DEFAULT: "#F1a70f",
           hover: "#B77c02",
         },
         paragraph: "#878e99",
+        whats: '#25D366',
+        linkedin: '#0077B5',
+        github: '#333',
+        email: '#D14836',
+      },
+       backgroundImage: {
+         hero: 'linear-gradient(to right, #434343 0%, black 100%)',
       },
     },
   },
