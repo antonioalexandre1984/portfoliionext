@@ -20,7 +20,7 @@
     "framer-motion": "^10.11.6",
     "heroicons-react": "^1.4.1",
     "next": "12.1.6",
-    "postcss": "^8.4.21",
+    "postcss": "^8.4.31",
     "prismic": "^0.0.1",
     "react": "18.1.0",
     "react-dom": "18.1.0",
